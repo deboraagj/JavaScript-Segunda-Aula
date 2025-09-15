@@ -94,6 +94,30 @@ let number = 10;
 
 do{
     console.log(number);
-    cont--;
+    number--;
 }while(number >= 5);
+
+// FUNÇÕES
+
+function ola() {
+    console.log("Olá, mundo!");
+}
+
+ola();
+
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+console.log(soma(10, 20));
+
+const subtracao = function(n1, n2) {
+    return n1 - n2;
+}
+
+console.log(subtracao(20, 10));
+
+const multiplicacao = (n1, n2) => n1 * n2;
+
+console.log(multiplicacao(10, 5));  
 
